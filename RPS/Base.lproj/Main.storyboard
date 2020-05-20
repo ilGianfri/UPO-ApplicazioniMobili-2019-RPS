@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="162" translatesAutoresizingMaskIntoConstraints="NO" id="A4a-Cg-c5a">
-                                <rect key="frame" x="69" y="137" width="276" height="690"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="118" translatesAutoresizingMaskIntoConstraints="NO" id="A4a-Cg-c5a">
+                                <rect key="frame" x="69" y="169" width="276" height="558"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👾" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl0-m4-KHU">
                                         <rect key="frame" x="111" y="0.0" width="54" height="60"/>
@@ -25,13 +25,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock, Paper, Scissors?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGq-qT-h5H">
-                                        <rect key="frame" x="17.5" y="222" width="241" height="30"/>
+                                        <rect key="frame" x="17.5" y="178" width="241" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="S2X-Tm-bsn">
-                                        <rect key="frame" x="0.0" y="414" width="276" height="72"/>
+                                        <rect key="frame" x="0.0" y="326" width="276" height="72"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2a-rg-DBG" userLabel="👊">
                                                 <rect key="frame" x="0.0" y="0.0" width="65" height="72"/>
@@ -60,7 +60,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imj-32-Dtv">
-                                        <rect key="frame" x="82.5" y="648" width="111" height="42"/>
+                                        <rect key="frame" x="82.5" y="516" width="111" height="42"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Play again"/>
                                         <connections>
@@ -71,6 +71,10 @@
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="A4a-Cg-c5a" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="U4x-Ra-uSd"/>
+                            <constraint firstItem="A4a-Cg-c5a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ljt-kR-0hj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
