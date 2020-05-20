@@ -13,8 +13,8 @@
 		4D66971A2472D1F800913A82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6697182472D1F800913A82 /* Main.storyboard */; };
 		4D66971C2472D1FF00913A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D66971B2472D1FF00913A82 /* Assets.xcassets */; };
 		4D66971F2472D1FF00913A82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D66971D2472D1FF00913A82 /* LaunchScreen.storyboard */; };
-		4D6697272472D2AF00913A82 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6697262472D2AF00913A82 /* Sign.swift */; };
 		4DC8EBEA24740BA6003F8D2B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8EBE924740BA6003F8D2B /* GameState.swift */; };
+		4DED60352475BFC30094B443 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED60342475BFC20094B443 /* Sign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		4D66971B2472D1FF00913A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D66971E2472D1FF00913A82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D6697202472D1FF00913A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D6697262472D2AF00913A82 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = SOURCE_ROOT; };
 		4DC8EBE924740BA6003F8D2B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		4DED60342475BFC20094B443 /* Sign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		4D6697112472D1F800913A82 /* RPS */ = {
 			isa = PBXGroup;
 			children = (
-				4D6697262472D2AF00913A82 /* Sign.swift */,
+				4DED60342475BFC20094B443 /* Sign.swift */,
 				4DC8EBE924740BA6003F8D2B /* GameState.swift */,
 				4D6697122472D1F800913A82 /* AppDelegate.swift */,
 				4D6697142472D1F800913A82 /* SceneDelegate.swift */,
@@ -146,8 +146,8 @@
 			files = (
 				4D6697172472D1F800913A82 /* ViewController.swift in Sources */,
 				4D6697132472D1F800913A82 /* AppDelegate.swift in Sources */,
+				4DED60352475BFC30094B443 /* Sign.swift in Sources */,
 				4DC8EBEA24740BA6003F8D2B /* GameState.swift in Sources */,
-				4D6697272472D2AF00913A82 /* Sign.swift in Sources */,
 				4D6697152472D1F800913A82 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
