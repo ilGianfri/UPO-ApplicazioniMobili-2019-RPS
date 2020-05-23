@@ -56,7 +56,7 @@ class ViewController: UIViewController
         switch CurrentState
         {
         case .Start:
-           GameResult.text = "Rock, Paper, Scissors?"
+           GameResult.text = "Rock, Paper, Scissors"
         case .Win:
             GameResult.text = "You win, human."
         case .Lose:
@@ -71,7 +71,7 @@ class ViewController: UIViewController
     func ResetView()
     {
         ComputerSign.text = "👾"
-        GameResult.text = "Rock, Paper, Scissors?"
+        GameResult.text = "Rock, Paper, Scissors"
         RockButton.isHidden = false
         PaperButton.isHidden = false
         ScissorsButton.isHidden = false
